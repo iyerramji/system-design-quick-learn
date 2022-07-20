@@ -6,7 +6,7 @@
   - Take more time to understand requirements in the beginning
   - Should we expect uniform traffic distribution or spiky.
   - Should we handle user auth, security, session management.
-  - Should we discuss logging, telemetry, service health and data science from the logs.
+  - Should we discuss logging, telemetry, service health(metrics) and data science from the logs.
   - What's the scale of traffic we should start with.
   - What is the API usage pattern, e.g. is it read or write heavy service.
   - "Who is this for?"
