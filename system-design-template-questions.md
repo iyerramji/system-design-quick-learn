@@ -13,7 +13,6 @@
   - "What are the expectations on the system?"
   - "What resources do we have?"
   - How do we expect this to grow over time?"
-  - try to timebox requirements & estimates to 5 minutes
 
 
 
