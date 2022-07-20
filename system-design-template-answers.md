@@ -29,7 +29,15 @@ Repo to quickly revise system design
   Trade-offs: discuss the positives and negatives of the design that was proposed
   - You could have talked about why we need high availability
   - You need to cover more trade-offs
-  - SQL vs NoSQL
+  - SQL vs NOSQL
+    .  relational databases handles structured data.   nosql dbs handles json xml etc.
+    .  sql used when transactions, relationship needed.
+    .  ACID where is consistency.                      BASE(eventuall consistency)
+    .  scaling(sharding and replication) rdbms is not trivial        NoSql databases scales(data grows) real easily with a snap of finger (virtual nodes in dynamodb and consistent hashing)
+    . Examples of nosql mongodb, cassandra, Bigtable
+    . NoSQL handles large number of concurrent read-writes.
+    . NoSQL offers flexible data modelling (schemaless)
+    . NoSQL used in data analytics which handles huge influx of data.
 
 
 ### SCALE IT / MULTIPLE DATA CENTERS
@@ -45,16 +53,18 @@ Repo to quickly revise system design
   - Partitioning ( Example data partioning amongst virtual nodes in dynamodb using consisten hashing)
   - sharding
   - talk about bottlenecks
-  - SQL vs NOSQL
-    .  relational databases handles structured data.   nosql dbs handles json xml etc.
-    .  sql used when transactions, relationship needed.
-    .  ACID where is consistency.                      BASE(eventuall consistency)
-    .  scaling(sharding and replication) rdbms is not trivial        NoSql databases scales(data grows) real easily with a snap of finger (virtual nodes in dynamodb and consistent hashing)
-    . Examples of nosql mongodb, cassandra, Bigtable
-    . NoSQL handles large number of concurrent read-writes.
-    . NoSQL offers flexible data modelling (schemaless)
-    . NoSQL used in data analytics which handles huge influx of data.
   - The CAP theorem states that in case of a network failure, when a few of the system nodes are down, we have to choose between availability and consistency.
+  - LB methods
+    . round robin
+    . weighted round robin
+    . least connection
+    . random
+    . hash
+  - Caching stratergies
+    . Cache aside
+    . Read through
+    . Write through
+    . Write back
 
 
 
