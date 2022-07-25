@@ -4,10 +4,9 @@
   - a bit more on problem exploration.
   - Given time constraints, agree with the interviewer on the priority of the topics in the table of content.
   - Take more time to understand requirements in the beginning
-  - Should we expect uniform traffic distribution or spiky.
   - Should we handle user auth, security, session management.
   - Should we discuss logging, telemetry, service health(metrics) and data science from the logs.
-  - What's the scale of traffic we should start with.
+
   - What is the API usage pattern, e.g. is it read or write heavy service.
   - "Who is this for?"
   - "What are the expectations on the system?"
@@ -17,7 +16,8 @@
 
 
 ### NON-FUNCTIONAL REQUIREMENTS
-Repo to quickly revise system design
+- What's the scale of traffic we should start with.
+- Should we expect uniform traffic distribution or spiky.
 
 
 
