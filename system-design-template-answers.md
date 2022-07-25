@@ -9,7 +9,9 @@ Repo to quickly revise system design
 
 
 ### BACK OF ENVELOPE
-Repo to quickly revise system design
+  - Calculate Incoming data and then figure out how many machines needed to store this data
+  - Calculate Bandwidth/throughput from this incoming data in terms of Mbps for each API
+  - Calculate latency for each API operation
 
 
 ### HIGH LEVEL DESIGN
@@ -19,12 +21,14 @@ Repo to quickly revise system design
 
 ### DETAILED DESIGN FOR SINGLE DATACENTER
   - continue doing tradeoffs during the session
+  - Always do an end to end run ( aka flow overview)
+
+
   - make sure to write down schemas for tables, caches, etc
   - lead the discussion yourself
   - discuss trade offs for decisions/etc you make
   - Justify DB selection for the data - SQL, NoSQL (key-value, document, graph). For example, consider if we need ACID property (SQL have stronger support of ACID), how much data will be stored, how quickly it will be growing and if the types of queries will change over time.
   - completeness of the solution and trade-offs as that is what I would expect from an E5
-  - Always do an end to end run
   - discuss the read/write/update path
   Trade-offs: discuss the positives and negatives of the design that was proposed
   - You could have talked about why we need high availability
