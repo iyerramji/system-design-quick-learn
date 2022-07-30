@@ -4,6 +4,7 @@ spiky or continuous traffic ?
 Authentication etc ?
 Metric or logging etc ? know 4 golden signals => latency, error_rate, saturation,
 
+Daily Active User ?
 READ/WRITE ratio ?
 - How do we expect this to grow over time?"
 
@@ -29,10 +30,13 @@ READ/WRITE ratio ?
 
 
 
+
+
 ### DETAILED DIAGRAM / SINGLE DC
+- API DESIGN
+- DB SCHEMA ( with tradeoff)
 - END TO END FLOW
 - TRADEOFFS.
-- DB SCHEMA
 
 
 
