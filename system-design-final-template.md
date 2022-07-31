@@ -18,6 +18,7 @@ What scale is expected from the system (e.g., number of new tweets, number of tw
 - EVENTUALLY CONSISTENT ?
 - HIGHLY AVAILABLE ?
 - LOW LATENCY
+- The system should be highly reliable; any uploaded photo or video should never be lost.
 
 
 ### BACK OF ENVELOPE CALCULATIONS

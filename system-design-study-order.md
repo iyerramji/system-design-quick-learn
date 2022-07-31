@@ -1,7 +1,7 @@
 ### revision things todo
-  . Google SRE case studies
   . educative grokking system design
   . educative advanced system design ( make notes)
+  . Google SRE case studies
   . Alex wu I
   . Alex wu II
   . system expert
