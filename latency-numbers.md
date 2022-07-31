@@ -20,7 +20,7 @@
 
 ### Main memory
   - Read @ 100 GBPS
-  - Read 1 MB = 1000 nS
+  - Read 1 MB = 10,000 nS
 
 ### machines
   - 10 GBPS per machine

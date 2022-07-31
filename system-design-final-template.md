@@ -2,11 +2,12 @@
 who is the end user ?
 spiky or continuous traffic ?
 Authentication etc ?
-Metric or logging etc ? know 4 golden signals => latency, error_rate, saturation,
+Metric or logging or Telemetry etc ? know 4 golden signals => latency, error_rate, saturation, traffic
 
 Daily Active User ?
 READ/WRITE ratio ?
 - How do we expect this to grow over time?"
+What scale is expected from the system (e.g., number of new tweets, number of tweet views, number of timeline generations per sec., etc.)?
 
 
 
@@ -47,8 +48,12 @@ READ/WRITE ratio ?
 - partitioning/replication/sharding
 - bottlenecks
 - edge cases
-- point of failure
+- Single point of failure ( Is there any single point of failure in our system? What are we doing to mitigate it?)
 - cap theorem
+Identifying bottleneck examples =>
+  Do we have enough replicas of the data so that we can still serve our users if we lose a few servers?
+  Similarly, do we have enough copies of different services running such that a few failures will not cause a total system shutdown?
+  How are we monitoring the performance of our service? Do we get alerts whenever critical components fail or their performance degrades?
 
 
 
