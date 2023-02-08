@@ -74,3 +74,9 @@ Repo to quickly revise system design
 
 ### BILL OF MATERIALS ( OPTIONAL)
   - Hardware requirements estimation.
+
+
+
+### API GATeway
+    Put API gateway in front of Kafka. API gateway also acts as load balancer.
+    Geo location routing is a route53 feature. It routes according to the origin of the dns call.
